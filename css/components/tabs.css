@@ -1,0 +1,29 @@
+/* Your tabs CSS code here */
+
+.container {
+  width: 900px;
+  margin: 24px auto;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.tab  {
+  color: grey;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.tab:hover  {
+  color: black;
+}
+
+.tabs .active {
+  padding-bottom: 7px;
+  border-bottom: 3px solid grey;
+  text-decoration: none;
+  color: black;
+}
+
